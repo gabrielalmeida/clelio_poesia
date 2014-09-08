@@ -1,0 +1,26 @@
+<head>
+  <title>clelio</title>
+</head>
+
+<body>
+  {{> layout}}
+</body>
+
+<template name="layout">
+ 
+    <div class="container">
+ 
+        <div id="main" class="row-fluid">
+
+          <textarea id="textarea"></textarea>
+ 
+        </div>
+    </div>
+ 
+    <audio id="key" src="/audio/key.wav" preload="auto"></audio>
+    <audio id="lastkey" src="/audio/lastkey.wav" preload="auto"></audio>
+    <audio id="return" src="/audio/return.wav" preload="auto"></audio>
+    <audio id="shiftdown" src="/audio/shiftdown.wav" preload="auto"></audio>
+    <audio id="shiftup" src="/audio/shiftup.wav" preload="auto"></audio>
+    <audio id="space" src="/audio/space.wav" preload="auto"></audio>
+</template>
